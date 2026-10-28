@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and debug artifacts
+*.log
+server/reset-link-debug.txt
+server/debug-auth.js
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build outputs
+dist/
+build/
+coverage/
+.nyc_output/
+
+# IDE and operating system files
+.vscode/
+.idea/
+*.swp
+*.swo/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local-only research and generated artifacts
+pricepilot-references.txt
+website_wording_audit.txt
+diff.txt
+out.json
+
+# Local vector database and generated logs
+ai-service/models/chroma_db/
+ai-service/server_log.txt
+client/build_log.txt
